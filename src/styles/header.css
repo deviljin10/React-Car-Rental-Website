@@ -1,7 +1,7 @@
 .header__top {
   padding: 10px 0px;
-  background: #000d6b;
-  color: #fff;
+  background: #1e1e27;
+  color: rgb(176, 9, 9);
 }
 
 .header__top__left {
@@ -21,8 +21,8 @@
 }
 
 .header__top__help i {
-  background: #fff;
-  color: #000d6b;
+  background: rgb(255, 255, 255);
+  color: #202c87;
   padding: 2px 4px;
   border-radius: 50px;
   font-size: 0.7rem;
@@ -30,13 +30,14 @@
 
 .header__top__right a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(209, 33, 33);
   font-size: 0.9rem;
 }
 
 .header__top__right a:hover {
-  color: #fff;
+  color: rgb(156, 112, 112);
 }
+
 
 /* ============ header middle style =========== */
 
@@ -54,7 +55,7 @@
 
 .logo h1 a {
   text-decoration: none;
-  color: #000d6b;
+  color: #7981b7;
   font-weight: 700;
 }
 

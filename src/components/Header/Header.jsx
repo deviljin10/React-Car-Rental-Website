@@ -41,7 +41,7 @@ const Header = () => {
           <Row>
             <Col lg="6" md="6" sm="6">
               <div className="header__top__left">
-                <span>Need Help?</span>
+                <span><Link to='/help'>Need Help?</Link></span>
                 <span className="header__top__help">
                   <i class="ri-phone-fill"></i> +1-202-555-0149
                 </span>
@@ -50,12 +50,12 @@ const Header = () => {
 
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                <Link to="#" className=" d-flex align-items-center gap-1">
+                <Link to="/login" className=" d-flex align-items-center gap-1">
                   <i class="ri-login-circle-line"></i> Login
                 </Link>
 
-                <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-user-line"></i> Register
+                <Link to="/Register" className=" d-flex align-items-center gap-1">
+                  <i class="ri-register-user-line"></i> Register
                 </Link>
               </div>
             </Col>
